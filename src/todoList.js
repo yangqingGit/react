@@ -28,6 +28,7 @@ class TodoList extends Component {
       console.log(index)
       const list=this.state.list;
       list.splice(index,1);
+      var kkk=1;
       this.setState({
           list:list
       })

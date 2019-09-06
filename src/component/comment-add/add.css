@@ -1,0 +1,18 @@
+.container{
+    overflow: hidden;
+}
+.write-wrap{
+    float: left;
+    width: 50%;
+}
+.reply-wrap{
+    width: 40%;
+    float: left;
+}
+input{
+    width: 200px
+}
+.comment-item{
+    padding:10px;
+    border:solid 1px blue;
+}

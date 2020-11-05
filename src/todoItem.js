@@ -4,7 +4,10 @@
 import React, {Component} from "react"
 class todoItem extends Component{
     constructor(props){
-        super(props)
+        super(props);
+        this.state={
+            num:0
+        }
     }
     render() {
         //jsx语法

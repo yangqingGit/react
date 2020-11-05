@@ -6,7 +6,7 @@ class todoItem extends Component{
     render() {
         //jsx语法
         return (
-          <li onClick={this.deleteItem.bind(this)}>{this.props.content}</li>
+          <li onClick={this.deleteItem.bind(this)} className="hehe">{this.props.content}</li>
     );
     }
     deleteItem(){

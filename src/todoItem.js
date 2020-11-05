@@ -3,6 +3,9 @@
  */
 import React, {Component} from "react"
 class todoItem extends Component{
+    constructor(props){
+        super(props)
+    }
     render() {
         //jsx语法
         return (
